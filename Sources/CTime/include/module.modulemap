@@ -1,0 +1,4 @@
+module CTime [system] {
+    header "/usr/include/time.h"
+    export *
+}
