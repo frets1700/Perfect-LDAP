@@ -17,7 +17,9 @@
 //===----------------------------------------------------------------------===//
 //
 
+#if os(Linux)
 import CTime
+#endif
 
 /// C library of SASL
 import SASL
